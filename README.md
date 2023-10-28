@@ -50,6 +50,4 @@ Your SvelteKit project with Supabase authentication is now up and running. You c
 
 ## Have Fun Coding! 🚀
 
-Don't forget to add some emojis to your code for fun! 😄
-
 Happy coding and enjoy using this template for your SvelteKit and Supabase project!
