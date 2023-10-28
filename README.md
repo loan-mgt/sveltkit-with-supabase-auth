@@ -1,38 +1,55 @@
-# create-svelte
+# SvelteKit with Supabase Auth Template
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a SvelteKit project template with Supabase authentication integration. It provides a starting point for building web applications with user authentication using Supabase.
 
-## Creating a project
+For more detailed instructions, you can refer to the official [Supabase guide](https://supabase.com/docs/guides/getting-started/tutorials/with-sveltekit) on integrating Supabase with SvelteKit.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Getting Started
+
+Follow these steps to get your project up and running:
+
+### 1. Clone the Repository
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+git clone https://github.com/yourusername/sveltekit-supabase-auth-template.git
+cd sveltekit-supabase-auth-template
 ```
 
-## Developing
+### 2. Create a Supabase Project
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Before proceeding, make sure you have a Supabase project set up. If you haven't, go to [Supabase](https://supabase.io/) and create a project.
+
+### 3. Create an Environment File
+
+Create a `.env` file in the root of your project directory and add the following environment variables:
+
+```env
+PUBLIC_SUPABASE_URL="YOUR_SUPABASE_PROJECT_URL"
+PUBLIC_SUPABASE_ANON_KEY="YOUR_SUPABASE_ANON_KEY"
+```
+
+Replace `YOUR_SUPABASE_PROJECT_URL` and `YOUR_SUPABASE_ANON_KEY` with the actual values from your Supabase project.
+
+### 4. Install Dependencies
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+### 5. Run the Development Server
+
+Start the development server to run your SvelteKit application:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Your SvelteKit project with Supabase authentication is now up and running. You can start building your application with user authentication!
 
-To create a production version of your app:
+## Have Fun Coding! 🚀
 
-```bash
-npm run build
-```
+Don't forget to add some emojis to your code for fun! 😄
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Happy coding and enjoy using this template for your SvelteKit and Supabase project!
